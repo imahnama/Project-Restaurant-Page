@@ -20,7 +20,7 @@ body {
 
 .gold-nav-div {
   display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+	margin-left: 0;
 }
 
 ul#horizontal-list {
@@ -47,6 +47,8 @@ ul#horizontal-list li  a {
 .gold-tab {
   position: absolute;
   top: 30px;
+  z-index: 1;
+  width: 100%;
 }
 
 .dark li {
@@ -88,12 +90,15 @@ main-contact {
 #main-contact,
 #main-menu {
   align-content: center;
-  padding-top: 2em;
+  padding-top: 2em; */
   height: 150px;
   width: 100%;
-  color: red;
+  color: white;
   font-family:  'Lobster', cursive;
-  background-color: #F5F5F5;
+  /* margin-top: 7em; */
+  padding-top: 10em;
+  padding-bottom: 5em;
+  background-image: url(http://owl.jwsthemeswp.com/wp-content/uploads/2017/05/bg-title-bar.jpg);
 }
 
 .feedback {
