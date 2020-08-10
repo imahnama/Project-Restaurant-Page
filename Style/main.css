@@ -11,6 +11,8 @@ body {
 
 #content {
   position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 #homepage img {
@@ -95,7 +97,6 @@ main-contact {
   width: 100%;
   color: white;
   font-family:  'Lobster', cursive;
-  /* margin-top: 7em; */
   padding-top: 10em;
   padding-bottom: 5em;
   background-image: url(http://owl.jwsthemeswp.com/wp-content/uploads/2017/05/bg-title-bar.jpg);
@@ -152,3 +153,8 @@ label {
   height: auto;
   padding: 10px;
 }
+
+/* .hide-menu,
+.hide-main {
+  display: none;
+} */
