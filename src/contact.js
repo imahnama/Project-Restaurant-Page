@@ -9,7 +9,7 @@ const contactPage = () => {
   mainContactDiv.appendChild(contact)
 
   const contactHeader = document.createElement('h2')
-  contactHeader.innerHTML = 'CONTACT US'
+  contactHeader.innerHTML = 'Contact Us'
 
   const contactDiv = document.createElement('div')
   contactDiv.setAttribute('class', 'feedback')
