@@ -85,7 +85,8 @@ main-contact {
   flex-direction: column;
 }
 
-#main-contact {
+#main-contact,
+#main-menu {
   align-content: center;
   padding-top: 2em;
   height: 150px;
@@ -114,7 +115,8 @@ main-contact {
   font-size: 25px;
 }
 
-#main-contact h2 {
+#main-contact h2,
+#main-menu h2 {
   text-align: center;
 }
 
@@ -138,4 +140,10 @@ input {
 
 label {
   width: 100%;
+}
+
+.chapo {
+  width: 33%;
+  height: auto;
+  padding: 10px;
 }
