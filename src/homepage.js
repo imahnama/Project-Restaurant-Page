@@ -20,39 +20,6 @@ const mainImage = () => {
     newDiv.appendChild(divContent)
 
 
-    const navDiv = document.createElement('div')
-    navDiv.setAttribute('class', 'gold-tab')
-
-    mainHomeDiv.appendChild(navDiv)
-
-    const navSecDiv = document.createElement('div')
-    navSecDiv.setAttribute('class', 'gold-nav-div')
-    const topNav = document.createElement('nav')
-    topNav.setAttribute('class', 'goldtabs dark')
-    const ulItem = document.createElement('ul')
-    ulItem.setAttribute('id', 'horizontal-list')
-    const listItem = document.createElement('li')
-    const liItem_a = document.createElement('a')
-    liItem_a.innerHTML = 'Home'
-    const listItem1 = document.createElement('li')
-    const liItem_a1 = document.createElement('a')
-    liItem_a1.innerHTML = 'Menu'
-    const listItem2 = document.createElement('li')
-    const liItem_a2 = document.createElement('a')
-    liItem_a2.innerHTML = 'Contact Us'
-
-
-    navDiv.appendChild(navSecDiv)
-    navSecDiv.appendChild(topNav)
-    topNav.appendChild(ulItem)
-    ulItem.appendChild(listItem)
-    listItem.appendChild(liItem_a)
-    ulItem.appendChild(listItem1)
-    listItem1.appendChild(liItem_a1)
-    ulItem.appendChild(listItem2)
-    listItem2.appendChild(liItem_a2)
-
-
  return mainHomeDiv
 
 }
