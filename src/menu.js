@@ -1,5 +1,6 @@
 const menuPage = () => {
   const mainMenuDiv = document.createElement('div')
+  mainMenuDiv.setAttribute('class', 'hide-menu')
   mainMenuDiv.setAttribute('id', 'main-menu-div')
 
   const menu = document.createElement('div')
@@ -59,3 +60,5 @@ const menuPage = () => {
 }
 
 document.body.appendChild(menuPage())
+
+export default menuPage;

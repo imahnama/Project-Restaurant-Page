@@ -2,6 +2,7 @@ const mainImage = () => {
 
     const mainHomeDiv = document.createElement('div')
     mainHomeDiv.setAttribute('id', 'main')
+    mainHomeDiv.setAttribute('class', 'hide-main')
     const divMainImage = document.createElement('div')
     divMainImage.setAttribute('id', 'homepage')
 
@@ -26,4 +27,4 @@ const mainImage = () => {
 
 document.body.appendChild(mainImage())
 
-export default homepage;
+export default mainImage;
