@@ -24,7 +24,7 @@ const mainImage = () => {
     navDiv.setAttribute('class', 'gold-tab')
 
     mainHomeDiv.appendChild(navDiv)
-    
+
     const navSecDiv = document.createElement('div')
     navSecDiv.setAttribute('class', 'gold-nav-div')
     const topNav = document.createElement('nav')
