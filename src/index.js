@@ -1,1 +1,2 @@
-console.log("Hello there!")
+// import mainImage from './homepage'
+// import contactPage from './contact'
