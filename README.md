@@ -1,6 +1,6 @@
-# Library
+# Restaurant App
 
-A simple book library app created with javascript
+Practicing DOM manipulation by dynamically rendering a simple restaurant homepage!
 
 ## Built With
 
