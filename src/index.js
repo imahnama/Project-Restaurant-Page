@@ -3,15 +3,22 @@ import mainImage from './homepage';
 import contactPage from './contact';
 import menuPage from './menu';
 
-
 //
+// //
 // const displayPage = () => {
 const navShow = navPage();
 const landingPage = mainImage();
 const showContact = contactPage();
 const showMenu = menuPage();
 
-const content = document.querySelector('#main');
+// const displayPage = () => {
+//   return navShow
+//
+// }
+
+const content = document.querySelector('#content');
+
+// content.appendChild(displayPage())
 
 const show = (section) => {
   content.innerHTML = '';
@@ -22,6 +29,9 @@ const show = (section) => {
 show(landingPage);
 
 const homeMain = document.getElementById('home');
+// document.getElementById('menu').addEventListener('click', () => {
+//   console.log('Testing')
+// })
 const menuMain = document.getElementById('menu');
 const contactMain = document.querySelector('#contact-us');
 
@@ -33,6 +43,7 @@ const displaySection = (x) => {
   } else {
     show(showContact);
   }
+
 };
 
 
