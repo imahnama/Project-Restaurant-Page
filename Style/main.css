@@ -22,27 +22,29 @@ body {
 
 .gold-nav-div {
   display: table;   /* Allow the centering to work */
-	margin-left: 0;
+  margin-left: 0;
 }
 
 ul#horizontal-list {
-	list-style: none;
-	padding-top: 20px;
-	}
-
-ul#horizontal-list li {
-		display: inline;
-    margin-right: 5em;
-	}
-
-ul#horizontal-list li a {
-  color: #F4F4F4;
-  margin-left: 5em;
-  font-size: 25px;
-  border-bottom: double #AC8310;
+  list-style: none;
+  padding-top: 20px;
 }
 
-ul#horizontal-list li  a {
+.dark li {
+  display: flex;
+  flex-direction: row;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  margin-right: 5em;
+}
+
+ul#horizontal-list li a {
+  color: #f4f4f4;
+  margin-left: 5em;
+  font-size: 25px;
+  border-bottom: double #ac8310;
   text-decoration: none;
 }
 
@@ -53,13 +55,8 @@ ul#horizontal-list li  a {
   width: 100%;
 }
 
-.dark li {
-  display: flex;
-  flex-direction: row;
-}
-
 .red-text {
-  color: 	#FF4500;
+  color: #ff4500;
 }
 
 .page-content {
@@ -74,14 +71,8 @@ ul#horizontal-list li  a {
   width: 40%;
   position: absolute;
   top: 400px;
-  border: 2px solid #C9AB80;
+  border: 2px solid #c9ab80;
   border-radius: 12px;
-}
-
-main-contact {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
 }
 
 #main-contact-div {
@@ -92,11 +83,10 @@ main-contact {
 #main-contact,
 #main-menu {
   align-content: center;
-  padding-top: 2em; 
   height: 150px;
   width: 100%;
   color: white;
-  font-family:  'Lobster', cursive;
+  font-family: 'Lobster', cursive;
   padding-top: 10em;
   padding-bottom: 5em;
   background-image: url(http://owl.jwsthemeswp.com/wp-content/uploads/2017/05/bg-title-bar.jpg);
@@ -113,11 +103,11 @@ main-contact {
   margin-left: 8em;
   line-height: 2em;
   font-size: 18px;
-  color: #888888;
+  color: #888;
 }
 
 .customer-feedback h3 {
-  color: #FFD700;
+  color: #ffd700;
   font-size: 25px;
 }
 
@@ -127,16 +117,13 @@ main-contact {
 }
 
 .form-group {
-  color: 	#F5F5F5;
+  color: #f5f5f5;
   margin-left: 3em;
   margin-top: 2em;
 }
 
 .message {
   margin-top: 0;
-}
-
-.message {
   width: 100%;
 }
 
