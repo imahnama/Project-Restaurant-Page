@@ -71,6 +71,4 @@ const contactPage = () => {
   return mainContactDiv;
 }
 
-document.body.appendChild(contactPage())
-
 export default contactPage

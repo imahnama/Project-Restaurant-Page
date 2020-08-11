@@ -25,6 +25,4 @@ const mainImage = () => {
 
 }
 
-document.body.appendChild(mainImage())
-
 export default mainImage;

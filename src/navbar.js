@@ -36,6 +36,4 @@ return navDiv
 
 }
 
-document.body.appendChild(navPage())
-
 export default navPage

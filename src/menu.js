@@ -59,6 +59,4 @@ const menuPage = () => {
   return mainMenuDiv
 }
 
-document.body.appendChild(menuPage())
-
 export default menuPage;
