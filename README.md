@@ -18,6 +18,8 @@ Practicing DOM manipulation by dynamically rendering a simple restaurant homepag
 
 ![Create Book](images/2.png)
 
+[Create Book](images/3.png)
+
 ### Prerequisites
 
 - Any kind of browser supporting CSS3 and HTML5
