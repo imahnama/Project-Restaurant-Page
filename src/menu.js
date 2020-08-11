@@ -8,11 +8,6 @@ const menuPage = () => {
 
   mainMenuDiv.appendChild(menu);
 
-  // const menuHeader = document.createElement('h2');
-  // menuHeader.innerHTML = 'Our Menu';
-  //
-  // menu.appendChild(menuHeader);
-
   const menuDishes = document.createElement('div');
   menuDishes.setAttribute('class', 'menu-dish, d-flex, flex-column');
 
@@ -104,12 +99,6 @@ const menuPage = () => {
   menuItems1.appendChild(divSix);
   divSix.appendChild(img6);
   divSix.appendChild(menuParagraphSix);
-  // menuItems.appendChild(img1);
-  // menuItems.appendChild(img2);
-  // menuItems.appendChild(img3);
-  // menuItems.appendChild(img4);
-  // menuItems.appendChild(img5);
-
   return mainMenuDiv;
 };
 
