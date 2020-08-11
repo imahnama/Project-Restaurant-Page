@@ -80,14 +80,19 @@ ul#horizontal-list li a {
   flex-direction: column;
 }
 
-#main-contact,
-#main-menu {
+#main-contact {
   align-content: center;
-  height: 150px;
+  height: 100px;
   width: 100%;
   color: white;
-  font-family: 'Lobster', cursive;
   padding-top: 10em;
+  padding-bottom: 5em;
+  font-family: 'Lobster', cursive;
+  background-image: url(http://owl.jwsthemeswp.com/wp-content/uploads/2017/05/bg-title-bar.jpg);
+}
+
+#main-menu {
+  padding-top: 3em;
   padding-bottom: 5em;
   background-image: url(http://owl.jwsthemeswp.com/wp-content/uploads/2017/05/bg-title-bar.jpg);
 }
@@ -136,13 +141,24 @@ label {
 }
 
 .chapo {
-  width: 33%;
+  width: 100%;
   height: auto;
-  padding: 10px;
+  padding: 15px 10px 5px 10px;
 }
 
 #home,
 #menu,
 #contact-us {
   cursor: pointer;
+}
+
+#text {
+  font-size: 25px;
+  margin-left: 3em;
+  font-weight: bold;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
