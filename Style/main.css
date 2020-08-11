@@ -154,6 +154,12 @@ label {
   padding: 10px;
 }
 
+#home,
+#menu,
+#contact-us {
+  cursor: pointer;
+}
+
 /* .hide-menu,
 .hide-main {
   display: none;
