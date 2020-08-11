@@ -12,7 +12,7 @@ Practicing DOM manipulation by dynamically rendering a simple restaurant homepag
 
 ## Live demo Link
 
-[live link](https://rawcdn.githack.com/imahnama/Project-Restaurant-Page/a83cb83c49108ed7d879d66b4faa43acfcc194c1/dist/index.html)
+[live link](https://rawcdn.githack.com/imahnama/Project-Restaurant-Page/b7d1b6035830adc6b78579c0e90e500c4d951a44/dist/index.html)
 
 ![Create Book](images/1.png)
 
